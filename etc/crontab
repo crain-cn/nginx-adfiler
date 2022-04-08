@@ -1,0 +1,14 @@
+#mapping
+2 * * * * sh /data/modules/ngx_mapping/scripts/mapping.scylla.sh > /dev/null 2>&1
+10 * * * * sh /data/modules/ngx_mapping/scripts/mapping.redis.sh > /dev/null 2>&1
+
+#log
+* */1 * * * sh /data/modules/ngx_mapping/scripts/log.zerofile.sh > /dev/null 2>&1
+1 * * * * sh /data/modules/ngx_mapping/scripts/log.mv.sh > /dev/null 2>&1
+55 * * * * sh /data/modules/ngx_mapping/scripts/log.rotate.sh > /dev/null 2>&1
+#55 * * * * sh /data/modules/ngx_mapping/scripts/log.rotate.httpd.sh > /dev/null 2>&1
+
+#moniter
+*/1 * * * * sh /data/modules/ngx_mapping/scripts/moniter.redis.sh > /dev/null 2>&1
+*/1 * * * * sh /data/modules/ngx_mapping/scripts/moniter.ngx_mapping.sh >  /dev/null 2>&1
+#*/1 * * * * sh /data/modules/ngx_mapping/scripts/moniter.httpd.sh >  /dev/null 2>&1

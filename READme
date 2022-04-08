@@ -1,0 +1,34 @@
+编译安装ngx mapping
+
+
+1.克隆代码
+        git clone http://192.168.0.6/reachmax/ngx_mapping.git
+        sudo apt-get install g++ clang make cmake
+2.安装动态库cassandra
+        sudo apt-get install libuv-dev libssl-dev
+        sudo git clone https://github.com/datastax/cpp-driver.git
+        sudo mkdir build
+        cd build
+        sudo cmake ..
+        sudo make
+        sudo make install
+        ldconfig
+        cassandra源码文件可以删除
+3.安装动态库hiredis
+        sudo git clone https://github.com/redis/hiredis.git
+        sudo make
+        sudo make install
+        ldconfig
+        hiredis源码文件可以删除
+4.nginx环境配置
+        sudo apt-get install libpcre3 libpcre3-dev libxml2-dev zlib1g-dev libxslt1-dev libgeoip-dev
+        sudo ./configure_ngx.sh
+        sudo make
+        sudo make install
+5.安装ngx_mapping
+        sudo apt-get libboost-all-dev libzmq3-dev
+        sudo mkdir build
+        cd build
+        sudo cmake ..
+        sudo make
+        sudo maek install

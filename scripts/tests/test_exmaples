@@ -1,0 +1,53 @@
+curl -v "http://m.reachmax.cn/r.gif?ext=2&tuid="
+curl -v "http://m.reachmax.cn/r.gif?ext=2&tuid="
+
+
+curl -v "http://m.reachmax.cn/r.gif?ext=a&qiyi_uid=9174f21b8af3402336ada0b05d18ef79"
+curl -v "http://m.reachmax.cn/r.gif?ext=a&qiyi_uid=9174f21b8af3402336ada0b05d18ef79"
+
+
+curl -v "http://m.reachmax.cn/m.gif?mid=O05Oc0WE52A7&ext=m"
+curl -v "http://m.reachmax.cn/m.gif?mid=O05Oc0WE52A7&ext=m"
+
+
+curl -v "http://m.reachmax.cn/r.gif?tuid=xxx&ext=q&tuid=AQEBM9I37UItdOjjWWEpz2WVVz1Yd_LOrW9g&ver=1&ext=6"
+curl -v "http://m.reachmax.cn/r.gif?tuid=xxx&ext=q&tuid=AQEBM9I37UItdOjjWWEpz2WVVz1Yd_LOrW9g&ver=1&ext=6"
+
+
+curl -v "http://m.reachmax.cn/r.gif?tuid=xxx&ext=q&tuid=AQEBFF11cawp_F206aqAV8RRVIMssVYlhRzQ&ver=1&ext=5"
+curl -v "http://m.reachmax.cn/r.gif?tuid=xxx&ext=q&tuid=AQEBFF11cawp_F206aqAV8RRVIMssVYlhRzQ&ver=1&ext=5"
+
+
+curl -v "http://m.reachmax.cn/rm.gif?ext=9&rmid=4FF8gUT6Bp"
+curl -v "http://m.reachmax.cn/rm.gif?ext=9&rmid=4FF8gUT6Bp"
+
+curl -v "http://m.reachmax.cn/m.gif?mid=O05Oc0WE52A7&ext=m"
+
+
+
+curl -v "http://m.reachmax.cn/ad.gif?aid=s23139ae9d6ca701a04"
+
+curl -v "http://m.reachmax.cn/ad.gif?aid=s23139ae9d6ca701a04"
+
+
+curl -v "http://m.reachmax.cn/r.gif?ext=k&kuid=d4e407ed31a0dac294e68aef07a2f9b3"
+curl -v "http://m.reachmax.cn/r.gif?ext=k&kuid=d4e407ed31a0dac294e68aef07a2f9b3"
+
+
+curl -v "http://m.reachmax.cn/k.gif"
+curl -v "http://m.reachmax.cn/k.gif"
+
+
+curl -v "http://m.reachmax.cn/r.gif?ext=4&s=9&uid=s23138fe9b6a8671fa7"
+curl -v "http://m.reachmax.cn/r.gif?ext=4&s=9&uid=s23138fe9b6a8671fa7"
+
+
+
+curl -v "http://m.reachmax.cn/m.gif?mid=O05Oc0WE52A7&ext=m"
+
+curl -v "http://m.reachmax.cn/r.gif?tuid=xxx&ext=q&tuid=AQEB1juHAhsUyTB1PSDSqdD0I7BX_4FAmBFe&ver=1&ext=4"
+curl -v "http://m.reachmax.cn/r.gif?tuid=xxx&ext=q&tuid=AQEB1juHAhsUyTB1PSDSqdD0I7BX_4FAmBFe&ver=1&ext=4"
+
+error:
+curl -v "http://m.reachmax.cn/m.gif?ext=m&mid=cLnTc0YX5Mb3&s=2"
+curl -v "http://m.reachmax.cn/m.gif?ext=m&mid=cLnTc0YX5Mb3&s=2"

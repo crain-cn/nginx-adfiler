@@ -1,0 +1,14 @@
+nbproject/*
+.idea
+.settings
+.cproject
+.project
+*.o
+*.a
+*.so
+build/*
+release
+build.ninja
+Testing/*
+objs
+nginx/Makefile
